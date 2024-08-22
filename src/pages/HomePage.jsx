@@ -10,7 +10,7 @@ import ViewAllJobs from '../components/ViewAllJobs'
         <>
         <Hero/>
         <HomeCards/>
-        <JobListings/>
+        <JobListings isHome={true}/>
         <ViewAllJobs/>
         </>
       )
